@@ -90,15 +90,12 @@ img.img-book1 {
   color: #fff;
 }
 
-.accordion-item:first-of-type .accordion-button {
+/* .accordion-item:first-of-type .accordion-button {
   color: #253943 !important;
   font-size: 18px;
   font-weight: 700;
   background-color: #fff5d6;
   /* border: 1px solid #253943; */
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important;
-}
 
 /* .accordion-item:last-of-type .accordion-button.collapsed {
   border-bottom-right-radius: 0 !important;
@@ -208,11 +205,20 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
 
 .accordion-collapse {
   overflow: hidden;
-  transition: height 0.7s ease-in-out;
-  -webkit-transition: height 0.7s ease-in-out;
-  -moz-transition: height 0.7s ease-in-out;
-  -ms-transition: height 0.7s ease-in-out;
-  -o-transition: height 0.7s ease-in-out;
+  transition: height 0.2s ease-in-out;
+  -webkit-transition: height 0.2s ease-in-out;
+  -moz-transition: height 0.2s ease-in-out;
+  -ms-transition: height 0.2s ease-in-out;
+  -o-transition: height 0.2s ease-in-out;
+}
+.accordion-item:first-of-type .accordion-button:target {
+  color: #253943 !important;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #fff5d6;
+  /* border: 1px solid #253943; */
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
 }
 
 /* for mobile screen  */
@@ -224,6 +230,11 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
   .img-book1 {
     margin-top: 30px;
   }
+  div#sec-img {
+    margin-top: -30px !important;
+    padding-bottom: 11px;
+  }
+
   h2#privacy-heading {
     font-size: 22px !important;
   }
