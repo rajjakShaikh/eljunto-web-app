@@ -22,6 +22,10 @@ body {
   margin-left: 0 !important;
 }
 
+.container-fluid.acc-test {
+  padding: 0px 138px;
+}
+
 .container-fluid.test-123 {
   padding: 0px 130px;
 }
@@ -237,9 +241,12 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
     display: flex;
     justify-content: center;
   }
-
   .container-fluid.test-123 {
-    padding: 0px 5px;
+    padding: 0px 10px;
+  }
+
+  .container-fluid.acc-test {
+    padding: 0px 10px;
   }
   p.smlfont {
     text-align: center;
@@ -286,10 +293,14 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
   .footer.mobile-view-footer {
     display: block;
   }
+
   img.fb {
     background-color: #ffff;
     border-radius: 20px;
+    margin-left: 6px;
+    margin-right: 2px;
   }
+
   footer.footer.mobile-view-footer {
     padding-top: 15px;
     padding-bottom: 10px;
