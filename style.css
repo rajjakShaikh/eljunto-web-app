@@ -7,10 +7,19 @@
 
 body {
   font-family: "Libre Baskerville", serif;
-  background-image: url("./img/Desktop\ Background_2.jpg");
+  background-image: url("./img/Desktop\ Background_compressed.jpg");
   background-size: contain;
   background-attachment: fixed;
   overflow: auto;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 .container-fluid.test-123 {
