@@ -17,21 +17,7 @@ body {
   margin-top: 25px;
 }
 
-input.primary {
-  height: 45px !important;
-  font-size: 14px !important;
-}
-button.button.rightButton.primary {
-  height: 45px !important;
-  font-size: 14px !important;
-}
-
 .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: 0 !important;
   margin-left: 0 !important;
 }
@@ -51,7 +37,7 @@ button.button.rightButton.primary {
 /* bullet points and the space between for content */
 .li-space {
   list-style-position: outside;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 
 h2.main-head {
