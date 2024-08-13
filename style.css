@@ -12,6 +12,20 @@ body {
   background-attachment: fixed;
   overflow: auto;
 }
+
+#substack {
+  margin-top: 25px;
+}
+
+input.primary {
+  height: 45px !important;
+  font-size: 14px !important;
+}
+button.button.rightButton.primary {
+  height: 45px !important;
+  font-size: 14px !important;
+}
+
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -66,20 +80,6 @@ li {
   line-height: 22.32px;
 }
 
-/* img.img-book1 {
-  border: 1px solid black;
-  border-radius: 32px;
-  padding: 10px;
-} */
-/* 
-.accordion-button:not(.collapsed) {
-  background-color: #fff5d6;
-  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  -webkit-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  -moz-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  -ms-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
-  -o-transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out; */
-
 .accordion-item {
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -106,15 +106,6 @@ li {
   background-color: #253943;
   color: #fff;
 }
-
-/* .accordion-item:first-of-type .accordion-button {
-  color: #253943 !important;
-  font-size: 18px;
-  font-weight: 700;
-  background-color: #fff5d6;
-  /* border: 1px solid #253943; */
-
-/* Icon color when expanded */
 
 .accordion-body {
   background-color: #fff5d6;
@@ -172,12 +163,6 @@ img.fb {
   padding: 0 20px;
 }
 
-/* for large screen */
-/* @media (max-width: 1024px) {
-.mobile-view-footer {
-  display: none;
-} */
-
 .footer {
   background-color: #78909c; /* Change to your desired color */
 
@@ -225,19 +210,10 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
   -ms-transition: height 0.2s ease-in-out;
   -o-transition: height 0.2s ease-in-out;
 }
-/* .accordion-item:first-of-type .accordion-button:target { */
-/* color: #253943 !important;
-  font-size: 18px;
-  font-weight: 700;
-  background-color: #fff5d6; */
-/* border: 1px solid #253943; */
-/* border-top-left-radius: 0px !important; */
-/* border-top-right-radius: 0px !important; */
-/* } */
 
 /* for mobile screen  */
 @media (max-width: 768px) {
-  .col-md-4.main-mobile-scren {
+  .col-md-4.main-mobile-screen {
     display: flex;
     justify-content: center;
   }
@@ -312,6 +288,27 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
 
   .tagmsg {
     margin: 0px 0px 30px 0px !important;
+  }
+  /* substack css responsive */
+  iframe {
+    width: 320px;
+  }
+  .embed-page .subscription-request-form input[type="email"] {
+    padding: 7px;
+    height: 36px;
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .embed-page .subscription-request-form .sideBySideWrap {
+    padding: 0 !important;
+  }
+  .embed-page .subscription-request-form .rightButton {
+    padding: 8px 9px;
+  }
+  .embed-page .embed-tos {
+    margin: 0 auto 12px;
+    max-width: 360px;
+    padding: 8px 20px;
   }
 }
 
