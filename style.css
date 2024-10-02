@@ -324,3 +324,7 @@ ul.d-flex.justify-content-center.justify-content-md-end.gap-3.list-unstyled.mb-0
     padding: 0px 10px;
   }
 }
+
+iframe {
+  display: none;
+}
